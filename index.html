@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Luminous Haven</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .text-shadow-neon-blue {
+            text-shadow: 0 0 8px rgba(0, 191, 255, 0.8), 0 0 12px rgba(0, 191, 255, 0.6), 0 0 20px rgba(0, 191, 255, 0.4);
+        }
+        .text-shadow-neon-pink {
+            text-shadow: 0 0 8px rgba(255, 105, 180, 0.8), 0 0 12px rgba(255, 105, 180, 0.6), 0 0 20px rgba(255, 105, 180, 0.4);
+        }
+        .bg-gradient-purple-blue {
+            background-image: linear-gradient(to right, #4F46E5, #0EA5E9);
+        }
+        .hover-bg-gradient-purple-blue-darker:hover {
+            background-image: linear-gradient(to right, #4338CA, #0C85CB);
+        }
+         .bg-gradient-pink-purple {
+            background-image: linear-gradient(to right, #EC4899, #A855F7);
+        }
+        .hover-bg-gradient-pink-purple-darker:hover {
+            background-image: linear-gradient(to right, #DB2777, #9333EA);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100">
+<div class="relative h-screen flex flex-col justify-between">
+<img alt="Luxurious futuristic club interior with neon lights, marble floors, and starry ceiling." class="absolute inset-0 w-full h-full object-cover z-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqY17MUgpc6LWxj-ic-gEMnKwn8P4JqzdjTHmgjeXT381_ZetE8GjNzRK60_AINBreI8g4eLUa-B-PYfZcJrY5DQGvG_3HfO-3acdnMZVbhG5ENZb8aqdQpPVeNMIoXQEB23hFdyYp8FsrIxxSvYEAz69RXg2jXg018AsVq78kEIrj1bU2BWXdSPHl_BChiACEthe8ox2N3WBb8zO4bQTIp8TMJ2zRheZ39Xe-ou6BF8xmO35QpEL6eyptv0TbBl0hW7T1LdesBSc"/>
+<div class="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
+<header class="relative z-20 p-6 md:p-8 flex justify-between items-center">
+<h1 class="text-3xl md:text-4xl font-bold tracking-tight text-white text-shadow-neon-blue">Luminous Haven</h1>
+<nav>
+<button class="text-pink-400 hover:text-pink-300 transition-colors">
+<span class="material-icons text-4xl">menu</span>
+</button>
+</nav>
+</header>
+<main class="relative z-20 flex flex-col items-center justify-center flex-grow text-center px-4">
+<div class="max-w-3xl">
+<h2 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight" style="text-shadow: 0 0 10px rgba(0, 220, 255, 0.7), 0 0 20px rgba(0, 191, 255, 0.5), 0 0 30px rgba(255, 105, 180, 0.6), 0 0 40px rgba(220, 38, 150, 0.4);">
+                Experience the Extraordinary
+            </h2>
+<p class="text-lg md:text-xl text-slate-200 mb-10">
+                Step into a world where light and luxury converge. Luminous Haven offers an unparalleled nightlife experience, blending futuristic design with timeless elegance.
+            </p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<a class="bg-gradient-purple-blue hover-bg-gradient-purple-blue-darker text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-sky-300 focus:ring-opacity-50 text-lg inline-flex items-center justify-center" href="#">
+<span class="material-icons mr-2">local_bar</span>
+                    Book a Table
+                </a>
+<a class="bg-gradient-pink-purple hover-bg-gradient-pink-purple-darker text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-300 focus:ring-opacity-50 text-lg inline-flex items-center justify-center" href="#">
+<span class="material-icons mr-2">event</span>
+                    Upcoming Events
+                </a>
+</div>
+</div>
+</main>
+<footer class="relative z-20 p-6 md:p-8 text-center text-slate-400">
+<p>© 2024 Luminous Haven. All Rights Reserved.</p>
+</footer>
+</div>
+
+</body></html>
